@@ -1,0 +1,42 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 200px;
+    background-color: #0066cc;
+    color: white;
+    height: 100vh;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    text-align: start;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .download-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .download-buttons img {
+    height: 50px;
+  }
+  
+  .powered-by {
+    font-size: 14px;
+  }
+  
+  .hero-image img {
+    height: 400px;
+  }
