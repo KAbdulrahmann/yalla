@@ -6,6 +6,7 @@ import HeroSection from './components/HeroScetion';
 import{Parallax,ParallaxLayer}from "@react-spring/parallax";
 import Footer from './components/Footer';
 import Features from './components/Features';
+
 const App: React.FC = () => {
   return (
     <div className="App">
