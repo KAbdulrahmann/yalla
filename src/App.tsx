@@ -11,12 +11,12 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <Header />
-      <Parallax pages={4}>
+      <Parallax pages={3}>
 <ParallaxLayer offset={0}>
 <HeroSection />
 </ParallaxLayer>
-<ParallaxLayer offset={1}>2</ParallaxLayer>
-<ParallaxLayer offset={2}>3<Features/></ParallaxLayer>
+<ParallaxLayer offset={1}></ParallaxLayer>
+<ParallaxLayer offset={2}><Features/></ParallaxLayer>
 <ParallaxLayer offset={3}><Footer/></ParallaxLayer>
       </Parallax>
     </div>

@@ -1,19 +1,5 @@
-.features {
-    display: flex;
-    justify-content: space-around;
-    padding: 50px 20px;
-}
+footer{
 
-.feature {
-    max-width: 300px;
-    text-align: left;
-}
-
-.feature h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.feature p {
-    font-size: 16px;
+    height: 200px;
+    background-color: rebeccapurple;
 }

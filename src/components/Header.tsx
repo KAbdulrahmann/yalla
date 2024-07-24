@@ -11,7 +11,7 @@ const Header: React.FC = () => {
   return (
     <header className="header">
       <div className="logo">
-        <img src="https://www.yalla.online/images/Home/Yalla-super-app-logo.svg" width='200px' alt="" />
+        <img src="https://www.yalla.online/images/Home/Yalla-super-app-logo.svg"  alt="" />
       </div>
       <nav>
         <ul>

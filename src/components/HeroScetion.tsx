@@ -1,6 +1,6 @@
 import React from 'react';
 import './HeroScetion.css';
-// import appImage from '../assets/app-image.png'; // Replace with actual image path
+import appImage from '../../assets/canvas.png'; // Replace with actual image path
 
 const HeroSection: React.FC = () => {
   return (
@@ -22,7 +22,7 @@ const HeroSection: React.FC = () => {
         </p>
       </div>
       <div className="hero-image">
-        <img src='blob:null/a9387dbf-4d9d-47e0-af53-b5eee653bf26' width='150px' height='300px' alt="Yalla App" />
+        <img src={appImage} alt="Yalla App" />
       </div>
     </section>
   );
