@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/yalla/',
+  base: 'https://kabdulrahmann.github.io/yalla/',
   build: {
     rollupOptions: {
       // Add any needed external modules here
